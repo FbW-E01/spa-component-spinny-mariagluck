@@ -21,10 +21,12 @@ function App() {
                <ul>
                    {comments.map((comment, i) => 
                        <li className="commentCard" key={i}>
+                            
                            <p><span>Title:</span> {comment.name}</p>
                            <hr/>
                            <p><span>By:</span> {comment.email}</p>
-                           <p><span>Comment:</span> {comment.body}</p>
+                           <p><span>Body:</span> {comment.body}</p>
+                           <p><span>Comment:</span> {comment.id}</p>
                        </li>
                    )}
                </ul>

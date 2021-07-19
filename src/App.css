@@ -13,6 +13,11 @@ iframe { margin: auto; }
 .container{
     width: 80vw;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
 }
 
 h2 {
@@ -25,7 +30,6 @@ h2 {
 
 .fa-spinner {
     font-size: 4em;
-    margin-left: 47%;
     margin-top: 20%;
     animation: spin infinite 5s linear;
   }
@@ -46,9 +50,13 @@ ul {
 
 p {
     line-height: 1.5rem;
-    margin-bottom: 0.75rem;    
+    margin-bottom: 30px;    
 }
 
+p:last-child {
+    font-size: 0.8em;
+    font-style: italic;
+}
 
 span {
     padding-right: 5px;
